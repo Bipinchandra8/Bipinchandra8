@@ -1,0 +1,21 @@
+def prime (x):
+  s=0
+  for i in range (1,x+1):
+    if(x%i==0):
+       s+=1
+   if(s==2):
+      return True
+    return False
+
+
+
+n=int(input('enter limit for list:'))
+i=0
+c=0
+print ('enter',n,'number:')
+for i in range (1,n+1):
+   X=int(input()) 
+   I.append(X)
+   if(prime(X)):
+      c+=1
+print ('the number of prime number in given list is',,c)
