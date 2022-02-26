@@ -1,0 +1,9 @@
+n=int(input())
+I=0
+for i in range(n):
+   x=int(input())
+   I.append(x)
+I.sort()
+I.reverse()
+for i in I:
+   print (i,end="")
