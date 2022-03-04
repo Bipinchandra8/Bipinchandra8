@@ -1,0 +1,10 @@
+print('enter elements into list:')
+I=input(). split()
+m=0
+c=0
+for i in I:
+  if I.count(i)>1:
+      c+= 1
+      I.remove(i)
+print('repeated elements:',c)
+       
