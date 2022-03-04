@@ -1,0 +1,8 @@
+print('enter scores:')
+I=input(). split()
+m=0
+for i in I:
+  if i not in m:
+      m.append(i)
+m.sort()
+print ('second Runner Up score:',m[-3])
